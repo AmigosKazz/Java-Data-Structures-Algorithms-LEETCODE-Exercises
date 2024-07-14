@@ -5,8 +5,11 @@ public class Main {
         LinkedList mylinkedList = new LinkedList(4);
 
         mylinkedList.append(7);
+        mylinkedList.prepend(9);
+        System.out.println(mylinkedList.get(1).value+ "\n");
+
         mylinkedList.printList();
-        mylinkedList.removeLast();
-        mylinkedList.printList();
+
+
     }
 }
