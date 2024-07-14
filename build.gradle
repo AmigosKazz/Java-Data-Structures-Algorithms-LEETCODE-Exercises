@@ -17,3 +17,7 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
+allprojects {
+    gradle.startParameter.warningMode = WarningMode.All
+}
