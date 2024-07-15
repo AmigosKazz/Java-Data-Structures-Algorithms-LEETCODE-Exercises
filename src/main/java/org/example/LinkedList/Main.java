@@ -5,11 +5,17 @@ public class Main {
         LinkedList mylinkedList = new LinkedList(4);
 
         mylinkedList.append(7);
+        mylinkedList.append(5);
         mylinkedList.prepend(9);
-        System.out.println(mylinkedList.get(1).value+ "\n");
+        mylinkedList.insert(2, 3);
+
 
         mylinkedList.printList();
 
+        System.out.println("\n");
+
+        mylinkedList.reverse();
+        mylinkedList.printList();
 
     }
 }
