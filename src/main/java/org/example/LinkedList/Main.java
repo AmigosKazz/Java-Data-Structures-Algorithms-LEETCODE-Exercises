@@ -9,12 +9,8 @@ public class Main {
         mylinkedList.prepend(9);
         mylinkedList.insert(2, 3);
 
+        System.out.println("middle: "+ mylinkedList.findMiddleNode().value);
 
-        mylinkedList.printList();
-
-        System.out.println("\n");
-
-        mylinkedList.reverse();
         mylinkedList.printList();
 
     }

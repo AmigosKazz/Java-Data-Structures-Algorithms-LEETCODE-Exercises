@@ -41,6 +41,27 @@ public class LinkedList {
         length++;
     }
 
+//    public Node findMiddleNode() {
+//        int index = (int) Math.floor(length/2);
+//        Node temp = head;
+//        for(int i=0; i<index; i++) {
+//            temp = temp.next;
+//        }
+//
+//        return temp;
+//    }
+
+    public Node findMiddleNode() {
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+
     public Node removeLast() {
         if (length == 0) return null;
 

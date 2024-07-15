@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3ff3117-0dbe-4b03-9370-313d85eee049" name="Changes" comment="LinkedList: removeFirst, get">
+    <list default="true" id="e3ff3117-0dbe-4b03-9370-313d85eee049" name="Changes" comment="LinkedList: set, insert, remove">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/Main.java" afterDir="false" />
@@ -128,7 +128,8 @@
       <workItem from="1720901456318" duration="335000" />
       <workItem from="1720967494957" duration="14643000" />
       <workItem from="1720993077200" duration="4094000" />
-      <workItem from="1721022466583" duration="6225000" />
+      <workItem from="1721022466583" duration="11365000" />
+      <workItem from="1721059311343" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="LinkedList: Create node, printList">
       <option name="closed" value="true" />
@@ -162,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720995661360</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LinkedList: set, insert, remove">
+      <option name="closed" value="true" />
+      <created>1721038820935</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721038820936</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +182,8 @@
     <MESSAGE value="LinkedList: append" />
     <MESSAGE value="LinkedList: removeLast" />
     <MESSAGE value="LinkedList: removeFirst, get" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList: removeFirst, get" />
+    <MESSAGE value="LinkedList: set, insert, remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList: set, insert, remove" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
