@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3ff3117-0dbe-4b03-9370-313d85eee049" name="Changes" comment="LinkedList: set, insert, remove">
+    <list default="true" id="e3ff3117-0dbe-4b03-9370-313d85eee049" name="Changes" comment="LinkedList: findMiddleNode">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2itP7poDA2wXbc9kqrarrNarUAd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -66,7 +68,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.LinkedList.Main">
+  <component name="RunManager" selected="Application.org.example.stack.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.bigO.Main" />
       <module name="untitled.main" />
@@ -106,8 +108,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.stack.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.stack.Main" />
+      <module name="untitled.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.stack.Main" />
         <item itemvalue="Application.org.example.LinkedList.Main" />
         <item itemvalue="Application.org.example.classes.Main" />
         <item itemvalue="Application.Main" />
@@ -129,7 +145,8 @@
       <workItem from="1720967494957" duration="14643000" />
       <workItem from="1720993077200" duration="4094000" />
       <workItem from="1721022466583" duration="11365000" />
-      <workItem from="1721059311343" duration="319000" />
+      <workItem from="1721059311343" duration="1575000" />
+      <workItem from="1721149921073" duration="995000" />
     </task>
     <task id="LOCAL-00001" summary="LinkedList: Create node, printList">
       <option name="closed" value="true" />
@@ -171,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721038820936</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LinkedList: findMiddleNode">
+      <option name="closed" value="true" />
+      <created>1721062257996</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721062257996</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +208,8 @@
     <MESSAGE value="LinkedList: removeLast" />
     <MESSAGE value="LinkedList: removeFirst, get" />
     <MESSAGE value="LinkedList: set, insert, remove" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList: set, insert, remove" />
+    <MESSAGE value="LinkedList: findMiddleNode" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList: findMiddleNode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
