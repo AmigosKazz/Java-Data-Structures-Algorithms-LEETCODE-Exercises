@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3ff3117-0dbe-4b03-9370-313d85eee049" name="Changes" comment="LinkedList: findMiddleNode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" afterDir="false" />
+    <list default="true" id="e3ff3117-0dbe-4b03-9370-313d85eee049" name="Changes" comment="Stack: create stack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +146,8 @@
       <workItem from="1720993077200" duration="4094000" />
       <workItem from="1721022466583" duration="11365000" />
       <workItem from="1721059311343" duration="1575000" />
-      <workItem from="1721149921073" duration="995000" />
+      <workItem from="1721149921073" duration="1258000" />
+      <workItem from="1721237866116" duration="3738000" />
     </task>
     <task id="LOCAL-00001" summary="LinkedList: Create node, printList">
       <option name="closed" value="true" />
@@ -196,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721062257996</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Stack: create stack">
+      <option name="closed" value="true" />
+      <created>1721151015336</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721151015336</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +218,8 @@
     <MESSAGE value="LinkedList: removeFirst, get" />
     <MESSAGE value="LinkedList: set, insert, remove" />
     <MESSAGE value="LinkedList: findMiddleNode" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList: findMiddleNode" />
+    <MESSAGE value="Stack: create stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack: create stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
