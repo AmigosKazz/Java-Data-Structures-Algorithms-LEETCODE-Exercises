@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3ff3117-0dbe-4b03-9370-313d85eee049" name="Changes" comment="Stack: create stack">
+    <list default="true" id="e3ff3117-0dbe-4b03-9370-313d85eee049" name="Changes" comment="Stack: push, pop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +145,7 @@
       <workItem from="1721022466583" duration="11365000" />
       <workItem from="1721059311343" duration="1575000" />
       <workItem from="1721149921073" duration="1258000" />
-      <workItem from="1721237866116" duration="3738000" />
+      <workItem from="1721237866116" duration="4461000" />
     </task>
     <task id="LOCAL-00001" summary="LinkedList: Create node, printList">
       <option name="closed" value="true" />
@@ -205,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721151015336</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Stack: push, pop">
+      <option name="closed" value="true" />
+      <created>1721245602721</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721245602721</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +225,8 @@
     <MESSAGE value="LinkedList: set, insert, remove" />
     <MESSAGE value="LinkedList: findMiddleNode" />
     <MESSAGE value="Stack: create stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack: create stack" />
+    <MESSAGE value="Stack: push, pop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack: push, pop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
