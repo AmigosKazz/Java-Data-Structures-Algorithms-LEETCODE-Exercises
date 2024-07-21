@@ -21,4 +21,13 @@ public class Queue {
         last = newNode;
         lenght = 1;
     }
+
+    public void printStack() {
+        Node temp = first;
+        while (temp != null) {
+            System.out.println(temp.value);
+            temp = temp.next;
+        }
+
+    }
 }
