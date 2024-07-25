@@ -40,10 +40,10 @@ public class Stack {
     }
 
     public Node pop() {
-        if (height == 0) return null;
+        if(height == 0) return null;
 
         Node temp = top;
-        top = top.next;
+        top = temp.next;
         temp.next = null;
         height--;
 

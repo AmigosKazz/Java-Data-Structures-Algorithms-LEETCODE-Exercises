@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3ff3117-0dbe-4b03-9370-313d85eee049" name="Changes" comment="Queue">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/queue/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +68,14 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/home/kazz/Documents/JavaDataStructures&amp;Algorithms/untitled/src/main/java/org/example/Main.java&quot;,
     &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Docker&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;
+    ]
   }
 }</component>
   <component name="RunManager" selected="Application.org.example.queue.Main">
@@ -163,7 +173,9 @@
       <workItem from="1721149921073" duration="1258000" />
       <workItem from="1721237866116" duration="4461000" />
       <workItem from="1721506016529" duration="1199000" />
-      <workItem from="1721583927031" duration="3836000" />
+      <workItem from="1721583927031" duration="4635000" />
+      <workItem from="1721808087992" duration="5241000" />
+      <workItem from="1721891505475" duration="6496000" />
     </task>
     <task id="LOCAL-00001" summary="LinkedList: Create node, printList">
       <option name="closed" value="true" />
@@ -237,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721509194658</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Queue">
+      <option name="closed" value="true" />
+      <created>1721593101383</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721593101384</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
