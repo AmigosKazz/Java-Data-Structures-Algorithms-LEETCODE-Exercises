@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3ff3117-0dbe-4b03-9370-313d85eee049" name="Changes" comment="Queue">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/Tree.java" afterDir="false" />
+    <list default="true" id="e3ff3117-0dbe-4b03-9370-313d85eee049" name="Changes" comment="enqueue, dequeue">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BinarySearchTree/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/queue/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinarySearchTree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/Tree.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +76,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.queue.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.bigO.Main" />
+  <component name="RunManager" selected="Application.org.example.BinarySearchTree.Main">
+    <configuration name="org.example.BinarySearchTree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BinarySearchTree.Main" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.bigO.*" />
+          <option name="PATTERN" value="org.example.BinarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.BinarySearchTree.Main" />
         <item itemvalue="Application.org.example.queue.Main" />
         <item itemvalue="Application.org.example.stack.Main" />
         <item itemvalue="Application.org.example.LinkedList.Main" />
         <item itemvalue="Application.org.example.classes.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +173,8 @@
       <workItem from="1721506016529" duration="1199000" />
       <workItem from="1721583927031" duration="4635000" />
       <workItem from="1721808087992" duration="5241000" />
-      <workItem from="1721891505475" duration="6496000" />
+      <workItem from="1721891505475" duration="7192000" />
+      <workItem from="1721936599452" duration="2395000" />
     </task>
     <task id="LOCAL-00001" summary="LinkedList: Create node, printList">
       <option name="closed" value="true" />
@@ -257,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721593101384</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="enqueue, dequeue">
+      <option name="closed" value="true" />
+      <created>1721914325917</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721914325917</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +280,8 @@
     <MESSAGE value="Stack: create stack" />
     <MESSAGE value="Stack: push, pop" />
     <MESSAGE value="Queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queue" />
+    <MESSAGE value="enqueue, dequeue" />
+    <option name="LAST_COMMIT_MESSAGE" value="enqueue, dequeue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
