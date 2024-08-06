@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3ff3117-0dbe-4b03-9370-313d85eee049" name="Changes" comment="BTS : insert">
+    <list default="true" id="e3ff3117-0dbe-4b03-9370-313d85eee049" name="Changes" comment="BTS : contains">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hashTable/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hashTable/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinarySearchTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinarySearchTree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinarySearchTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinarySearchTree/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +176,9 @@
       <workItem from="1721936599452" duration="2395000" />
       <workItem from="1721950599470" duration="65000" />
       <workItem from="1721981424015" duration="4000" />
-      <workItem from="1722009512350" duration="8044000" />
+      <workItem from="1722009512350" duration="8735000" />
+      <workItem from="1722690995214" duration="4000" />
+      <workItem from="1722973370834" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="LinkedList: Create node, printList">
       <option name="closed" value="true" />
@@ -281,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722019800462</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="BTS : contains">
+      <option name="closed" value="true" />
+      <created>1722022888691</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722022888691</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +311,8 @@
     <MESSAGE value="enqueue, dequeue" />
     <MESSAGE value="BTS implementation" />
     <MESSAGE value="BTS : insert" />
-    <option name="LAST_COMMIT_MESSAGE" value="BTS : insert" />
+    <MESSAGE value="BTS : contains" />
+    <option name="LAST_COMMIT_MESSAGE" value="BTS : contains" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
