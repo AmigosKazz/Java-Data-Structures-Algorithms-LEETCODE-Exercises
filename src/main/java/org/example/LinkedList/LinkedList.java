@@ -62,6 +62,19 @@ public class LinkedList {
         return slow;
     }
 
+    public Node findMiddle() {
+        Node slow = head;
+        Node fast = head;
+        Node curr = head;
+
+        while (fast != null && fast.next != null) {
+            slow = curr;
+            curr = curr.next;
+            fast = fast.next.next;
+        }
+        return curr;
+    }
+
     public Node removeLast() {
         if (length == 0) return null;
 
@@ -100,7 +113,7 @@ public class LinkedList {
         Node temp = head;
         head = head.next;
         temp.next = null;
-        length--;
+        length--;   
 
         if (length == 0) {
             tail = null;
